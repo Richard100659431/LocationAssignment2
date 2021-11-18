@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1CB59F"
+    tools:context=".MainFragment">
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="144dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="528dp"
+        android:backgroundTint="#FF32C819"
+        android:text="Update Address"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="144dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="448dp"
+        android:backgroundTint="#FF32C819"
+        android:text="Add Address"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="144dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="528dp"
+        android:backgroundTint="#FF32C819"
+        android:text="Remove Address"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/findButton"
+        android:layout_width="144dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="448dp"
+        android:backgroundTint="#FF32C819"
+        android:text="Get Coordinate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/enterCoords"
+        android:layout_width="178dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#FF32C819"
+        android:text="Change Coordinate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="153dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="16dp"
+        android:background="#DDDAB8"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appNameLabel"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="153dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:background="#DDDAB8"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appNameLabel"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/longitude_label"
+        android:layout_width="135dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="24dp"
+        android:text="Longitude"
+        android:textAlignment="center"
+        android:textColor="#BD0000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <TextView
+        android:id="@+id/latitude_label"
+        android:layout_width="142dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="260dp"
+        android:text="Latitude"
+        android:textAlignment="center"
+        android:textColor="#BD0000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <EditText
+        android:id="@+id/find_input_bar"
+        android:layout_width="159dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="68dp"
+        android:background="#DDDAB8"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Input Address"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appNameLabel"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="246dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="300dp"
+        android:text="Input Address"
+        android:textAlignment="center"
+        android:textColor="#BD0000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintVertical_bias="0.42" />
+
+    <FrameLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="408dp"
+        android:layout_height="65dp"
+        android:background="#32C819"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/appNameLabel"
+        android:layout_width="235dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="83dp"
+        android:text="Find A Location"
+        android:textAlignment="center"
+        android:textColor="#BD0000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        tools:ignore="UnknownIdInLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

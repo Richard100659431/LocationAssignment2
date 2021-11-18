@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Main Page -->
+    <string name="app_name_label">Location Finder</string>
+    <string name="find_button_label">Find Location</string>
+    <string name="add_button_label">Add Location</string>
+    <string name="update_button_label">Update Location</string>
+    <string name="remove_button_label">Remove Location</string>
+    <string name="find_input_bar">Enter Address:</string>
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="get_coordinates_label">Get Coordinates</string>
+    <string name="enter_coords_button_label">Enter Coordinates</string>
+
+    <!-- Coordinates Page -->
+    <string name="address_label">Address</string>
+    <string name="enter_address_button_label">Input Address</string>
+    <string name="lat_input_bar">Input Latitude</string>
+    <string name="lng_input_bar">Input Longitude</string>
+    <string name="find_address_label">Find Address</string>
+
+
+</resources>
